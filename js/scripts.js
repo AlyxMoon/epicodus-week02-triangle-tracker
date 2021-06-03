@@ -22,5 +22,7 @@ $(document).ready(function () {
     const side2 = parseInt($("input#side2").val());
     const side3 = parseInt($("input#side3").val());
     const triangleType = getTriangleType(side1, side2, side3)
+
+    $(".output").text(triangleType);
   })
 })
